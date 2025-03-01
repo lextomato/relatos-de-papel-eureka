@@ -9,5 +9,6 @@ eureka:
   instance:
     hostname: ${EUREKA_HOST:localhost}
     preferIpAddress: false
+    nonSecurePortEnabled: false
   server:
     renewal-percent-threshold: 0.90
