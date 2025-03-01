@@ -8,5 +8,6 @@ eureka:
     fetchRegistry: false
   instance:
     hostname: ${EUREKA_HOST:localhost}
+    preferIpAddress: false
   server:
     renewal-percent-threshold: 0.90
